@@ -1,70 +1,30 @@
-# Databricks Masterclass 2026
+# Managed vs External Tables - Databricks Demo
 
-Official companion repository for the **Data Dharma** YouTube channel's Databricks Masterclass series.
+This repository contains all notebooks used in my YouTube video.
 
-This repository contains notebooks, SQL scripts, and supporting materials demonstrated throughout the series. Every folder corresponds to a specific episode so you can follow along and practice the concepts yourself using **Databricks Free Edition**.
+## Contents
 
----
+- Managed Tables.ipynb
+- Managed Tables Part2.ipynb
+- External table demo.ipynb
 
-## YouTube Channel
+## YouTube Video
 
-**Data Dharma by Srikanth**
+Managed vs External Tables | Databricks Masterclass Episode 7
 
-Practical Databricks, Data Engineering, AI, and Career Guidance in Telugu.
+## Playlist
 
-YouTube: https://www.youtube.com/@DataDharmaBySrikanth
+https://www.youtube.com/playlist?list=PLKGYxsBfjIpw
 
----
+## LinkedIn
 
-## Repository Structure
+https://www.linkedin.com/in/srisrisrikanth/
 
-| Episode | Folder | Topic |
-|---|---|---|
-| Episode 9 | [`Delta-Table-Demo`](./Delta-Table-Demo) | Delta Lake Internals — Transaction Log Deep Dive |
+Happy Learning!
 
-### Coming soon
-More episodes will be added here as new videos are published, including:
+Data Dharma by Srikanth
 
-- Unity Catalog
-- Volumes
-- Compute
-- Auto Loader
-- Delta Live Tables
-- Medallion Architecture
-- Workflows
-- Performance Optimization
-- Enterprise Project
 
----
-
-## How to Use
-
-1. Watch the corresponding YouTube episode.
-2. Open the matching folder in this repository.
-3. Read that folder's README for setup and run order.
-4. Import the notebooks into Databricks Free Edition.
-5. Run them step by step alongside the video.
-
-All notebooks are tested on **Databricks Free Edition** — no paid subscription required.
-
----
-
-## Connect
-
-LinkedIn: _add your verified LinkedIn URL here before publishing_
-
----
-
-## Support the Project
-
-If these notebooks helped you:
-
-- Star this repository
-- Subscribe to the YouTube channel
-- Share the videos with others learning Data Engineering
-
----
-
-**Data Dharma**
-
-*Enterprise Experience • Practical Learning • Honest Guidance*
+Databricks Community Edition
+Runtime: 16.x
+Language: Python
