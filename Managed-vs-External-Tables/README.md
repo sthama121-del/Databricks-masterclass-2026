@@ -1,30 +1,30 @@
-# Managed vs External Tables - Databricks Demo
+# Managed vs External Tables — Databricks Demo
 
-This repository contains all notebooks used in my YouTube video.
+Companion notebooks for the **Data Dharma** YouTube channel's Databricks Masterclass — Episode 7: Managed vs External Tables.
 
-## Contents
+## Prerequisites
 
-- Managed Tables.ipynb
-- Managed Tables Part2.ipynb
-- External table demo.ipynb
+- A Databricks workspace (built and tested on **Databricks Free Edition**, Runtime 16.x)
+- No prior Delta Lake experience required — this episode assumes only the basics covered in Episode 9 (Delta Lake Internals)
 
-## YouTube Video
+## Notebooks (run in this order)
 
-Managed vs External Tables | Databricks Masterclass Episode 7
+| Notebook | What it covers |
+|---|---|
+| `Managed Tables.ipynb` | [Fill in — e.g. creating a managed table, what happens on DROP TABLE] |
+| `Managed Tables Part2.ipynb` | [Fill in — e.g. continuation, deeper managed-table behavior] |
+| `External table demo.ipynb` | [Fill in — e.g. creating an external table, LOCATION clause, DROP TABLE behavior contrast] |
 
-## Playlist
+## Watch the video
 
-https://www.youtube.com/playlist?list=PLKGYxsBfjIpw
+[Managed vs External Tables | Databricks Masterclass Episode 7](PASTE_REAL_VIDEO_URL_HERE)
 
-## LinkedIn
+Full playlist: [Databricks Masterclass 2026 (Telugu)](https://www.youtube.com/playlist?list=PLKGYxsBfjIpw)
 
-https://www.linkedin.com/in/srisrisrikanth/
+## Connect
 
-Happy Learning!
+LinkedIn: [srisrisrikanth](https://www.linkedin.com/in/srisrisrikanth/)
 
-Data Dharma by Srikanth
+---
 
-
-Databricks Community Edition
-Runtime: 16.x
-Language: Python
+**Data Dharma by Srikanth** — Happy Learning!
