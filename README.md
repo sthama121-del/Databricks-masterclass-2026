@@ -28,6 +28,7 @@ Full playlist: [Databricks Masterclass 2026 (Telugu)](https://www.youtube.com/pl
 | Episode 11 | [`Duplicate_Handling_CTAS`](./Duplicate_Handling_CTAS) | Duplicate Handling via CREATE OR REPLACE TABLE AS SELECT DISTINCT |
 | Episode 12 (Part 1) | [`DeltaDemo_TimeTravel`](./DeltaDemo_TimeTravel) | Time Travel & RESTORE |
 | Episode 12 (Part 2) | [`Delta_Demo_Demo-Selective_Recovery`](./Delta_Demo_Demo-Selective_Recovery) | Selective Recovery — Fixing a Mistake Without Losing Newer Data |
+| Episode 14 | [`Delta_Demo_Vacuum`](./Delta_Demo_Vacuum) | VACUUM — Is the Data Still Recoverable Forever? |
 
 ### Coming soon
 More episodes will be added here as new videos are published, including:
