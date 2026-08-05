@@ -29,6 +29,8 @@ Full playlist: [Databricks Masterclass 2026 (Telugu)](https://www.youtube.com/pl
 | Episode 12 (Part 1) | [`DeltaDemo_TimeTravel`](./DeltaDemo_TimeTravel) | Time Travel & RESTORE |
 | Episode 12 (Part 2) | [`Delta_Demo_Demo-Selective_Recovery`](./Delta_Demo_Demo-Selective_Recovery) | Selective Recovery — Fixing a Mistake Without Losing Newer Data |
 | Episode 14 | [`Delta_Demo_Vacuum`](./Delta_Demo_Vacuum) | VACUUM — Is the Data Still Recoverable Forever? |
+| Episode 15 | [`Delta-Demo-merge-Internals`](./Delta-Demo-merge-Internals) | MERGE Internals — One Statement Instead of Four |
+| Episode 16 | [`Delta_Demo_Shallow_Clone`](./Delta_Demo_Shallow_Clone) | Shallow Clone — Does It Survive VACUUM? |
 
 ### Coming soon
 More episodes will be added here as new videos are published, including:
