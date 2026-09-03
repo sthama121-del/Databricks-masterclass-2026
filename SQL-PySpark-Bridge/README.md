@@ -35,8 +35,9 @@ SQL and PySpark are never taught as two separate subjects — every example solv
 | 2 | `02_SQL_vs_PySpark_Transformations_Part2.ipynb` | CASE WHEN, CAST, IN, LIKE, NULL handling (`IS NULL`/`IS NOT NULL`/`COALESCE`), string functions, date functions |
 | 3 | `03_SQL_vs_PySpark_Aggregations_Part3.ipynb` | GROUP BY, COUNT, SUM, AVG, MIN, MAX, multiple aggregations, multi-column GROUP BY, WHERE vs HAVING |
 | 4 | `04_SQL_vs_PySpark_Joins_Part4.ipynb` | INNER, LEFT, RIGHT, FULL OUTER JOIN, join conditions vs. join types, selecting columns after a join, different key names, filtering after a join, ambiguous column names |
+| 5 | `05_SQL_vs_PySpark_Window_Functions_Part5.ipynb` | ROW_NUMBER, RANK, DENSE_RANK, aggregate window functions (SUM/AVG over a partition), running totals, LAG, LEAD |
 
-Each notebook builds on the last — run them in order for the full learning progression.
+Each notebook builds on the last — run them in order for the full learning progression. **Part 5 completes the mini-series.**
 
 ## The dataset
 
@@ -46,6 +47,7 @@ All notebooks share one small, realistic **retail `orders` dataset** (18 rows), 
 - Part 2 extends the dataset with `customer_name`, `ship_date`, and `promo_code` — each added for a real teaching reason (string cleanup, genuine NULLs for unshipped/cancelled orders, and a COALESCE example), explained in-notebook
 - Part 3 reuses the Part 2 dataset unchanged
 - Part 4 adds a second table, **`customers`** (14 rows), to teach JOINs. It's deliberately built so one customer has no orders yet and one order references a customer with no record — so INNER, LEFT, RIGHT, and FULL OUTER JOIN each produce a visibly different, real result
+- Part 5 reuses the Part 1–3 `orders` dataset unchanged. Its ties aren't manufactured — Austin genuinely has two orders tied at the same amount, which is what makes the RANK vs DENSE_RANK vs ROW_NUMBER comparison real rather than staged
 
 The same DataFrame (`orders_df`) is exposed as a SQL temp view (`orders`) in every notebook, so SQL and PySpark examples always read the exact same underlying data:
 
@@ -67,11 +69,19 @@ From Part 4 onward, `customers_df` / `customers` follows the same pattern alongs
 
 No setup, credentials, or external data required.
 
-## Coming next
+## Series status
 
-**Part 5 — SQL ↔ PySpark Window Functions**
+**Complete.** Parts 1–5 cover the full progression from basic SQL translation through window functions:
 
-`ROW_NUMBER`, `RANK`, `DENSE_RANK`, `PARTITION BY`, `ORDER BY` inside window functions.
+```
+Part 1: SELECT, FILTER, DISTINCT, SORT, LIMIT
+Part 2: CASE WHEN, CAST, IN, LIKE, NULL, String & Date Functions
+Part 3: GROUP BY, COUNT, SUM, AVG, MIN, MAX, HAVING
+Part 4: JOINs
+Part 5: Window Functions
+```
+
+A learner who completes all five notebooks can look at common SQL Data Engineering logic and know how to structure the equivalent PySpark DataFrame code.
 
 ## Links
 
